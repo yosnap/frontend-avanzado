@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header > nav {
+    margin:0;
+    padding: 0 2em;
+}
+
+.w-50 {
+    width:50%
+}
+
+.w-100 {
+    width:100%;
+    padding:2em;
+}
+
+.wr-30 {
+    width:30rem;
+}
+
+img {
+    width:200px;
+    height:200px;
+}
+
+.grid-box {
+    display:grid;
+    place-content: center;
+}
+
+.mt-1 {
+    margin-top:1em;
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><strong>Anuncios</strong></li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="./home.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./newadvert.html">Nuevo</a>
+                </li>
+                
+                <li>
+                    <a href="#!" class="logout">Cerrar sesión</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <hr>
+    <div class="grid-box">
+        <article class="wr-30">
+        <span class="feedback"></span>  
+        <h2>Nuevo anuncio</h2>
+        <form class="form">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Nombre del producto">
+            <label for="description">Descripción</label>
+            <input type="text" name="description" id="description" placeholder="Descripción del producto">
+            <label for="price">Precio del producto</label>
+            <input type="number" name="price" id="price" placeholder="Precio">
+            <fieldset>
+                <legend>Tipo</legend>
+                <label for="sell1">
+                    <input type="radio" name="sell" id="sell1" value="false">
+                    Compra
+                </label>
+                <label for="sell2">
+                    <input type="radio" name="sell" id="sell2" value="true">
+                    Venta
+                </label>
+            </fieldset>
+            <label for="file">Foto</label>
+            <input type="file" name="file" id="file" placeholder="Seleccione">
+            <input id="btn-reg" type="submit" value="Registrar">
+        </form>
+        
+        </article>
+    </div>
+    <script src="./scripts/router.js"></script>
+    <script src="./scripts/header.js"></script>
+    <script src="./scripts/newadvert.js"></script>
+</body>
+</html>
