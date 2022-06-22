@@ -9,6 +9,10 @@ header > nav {
     padding: 0 2em;
 }
 
+.feedback {
+    color:red;
+}
+
 .w-50 {
     width:50%
 }
@@ -35,4 +39,3 @@ img {
 .mt-1 {
     margin-top:1em;
 }
-
