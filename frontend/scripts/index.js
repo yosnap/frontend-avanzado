@@ -8,6 +8,7 @@ const errorMessages = {
 
 form.addEventListener('submit', ev => {
     ev.preventDefault();
+    feedback.innerText = ''
     const values = Object.fromEntries(new FormData(ev.target));
     login(JSON.stringify(values));
 });
